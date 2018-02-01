@@ -6,7 +6,7 @@
     "scripts": {
         "test": "mocha",
         "dev": "node server.js",
-        "start": "node server.js"
+        "start": "next build; next start"
     },
     "author": "",
     "license": "ISC",
