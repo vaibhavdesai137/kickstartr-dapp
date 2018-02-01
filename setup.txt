@@ -9,3 +9,7 @@ $ node compile.js
 $ METAMASK_MNEMONIC="" RINKEBY_ACCOUNT="0xBACe226b892D61CD7A7a2D6eCFd5978ec2BCBBf6" INFURA_KEY="" node deploy.js
 
 # Deploying the front end to heroku
+heroku create
+git push heroku remote
+heroku ps:scale web=1
+
